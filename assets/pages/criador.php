@@ -29,15 +29,15 @@
     <div class="container mt-4 bg-dark p-4" style="border-radius: 15px;">
       <form action="generate.php" method="post">
         <div class="form-floating m-2">
-          <input type="text" name="pagTitle" class="form-control" placeholder="Titulo da página">
+          <input type="text" name="pagTitle" class="form-control" placeholder="Titulo da página" required>
           <label for="pagTitle">Titulo da página</label>
         </div>
         <div class="form-floating m-2">
-          <input type="text" name="headerText" class="form-control" placeholder="Texto do cabeçalho">
+          <input type="text" name="headerText" class="form-control" placeholder="Texto do cabeçalho" required>
           <label for="headerText">Texto do cabeçalho</label>
         </div>
         <div class="form-floating m-2">
-          <input type="number" name="headerTextSize" class="form-control" placeholder="Tamanho do texto do cabeçalho">
+          <input type="number" name="headerTextSize" class="form-control" placeholder="Tamanho do texto do cabeçalho" required>
           <label for="headerText">Tamanho do texto do cabeçalho(px)</label>
         </div>
         <div class="m-2">
@@ -49,11 +49,11 @@
           <input type="color" name="headerColor" class="form-control form-control-color">
         </div>
         <div class="form-floating m-2">
-          <input type="text" name="contentText" rows="5" class="form-control" placeholder="Texto do cabeçalho">
+          <input type="text" name="contentText" rows="5" class="form-control" placeholder="Texto do cabeçalho" required>
           <label for="headerText">Texto do conteúdo</label>
         </div>
         <div class="form-floating m-2">
-          <input type="number" name="contentTextSize" class="form-control" placeholder="Tamanho do texto do cabeçalho">
+          <input type="number" name="contentTextSize" class="form-control" placeholder="Tamanho do texto do cabeçalho" required>
           <label for="headerText">Tamanho do texto do conteúdo(px)</label>
         </div>
         <div class="m-2">

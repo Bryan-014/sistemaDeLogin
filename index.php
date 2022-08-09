@@ -56,6 +56,7 @@
                     id="floatingEmail"
                     placeholder="name@example.com"
                     name="email"
+                    required
                   />
                   <label for="floatingEmail">Email</label>
                 </div>
@@ -66,6 +67,7 @@
                     id="floatingPassword"
                     placeholder="Senha"
                     name="pass"
+                    required
                   />
                   <label for="floatingPassword">Senha</label>
                 </div>
@@ -101,6 +103,7 @@
                     id="floatingEmail"
                     placeholder="name@example.com"
                     name="email"
+                    required
                   />
                   <label for="floatingEmail">Email</label>
                 </div>
@@ -111,6 +114,7 @@
                     id="floatinguser"
                     placeholder="name@example.com"
                     name="user"
+                    required
                   />
                   <label for="floatinguser">Usuário</label>
                 </div>
@@ -121,6 +125,7 @@
                     id="floatingPassword"
                     placeholder="Senha"
                     name="pass"
+                    required
                   />
                   <label for="floatingPassword">Senha</label>
                 </div>
